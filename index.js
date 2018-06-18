@@ -2,7 +2,7 @@ const cardsColor = ["red", "red", "blue", "blue", "green", "green",
 "yellow", "yellow", "brown", "brown", "gray", "gray", "lightgreen", "lightgreen",
  "cadetblue", "cadetblue", "violet", "violet"];
 
- let cards = document.querySelectorAll("div");
+ let cards = document.getElementsByTagName("div");
  cards = [...cards];
 
 const startTime = new Date().getTime();
