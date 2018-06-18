@@ -36,7 +36,7 @@ let gameResult = 0;
        console.log('wygrana');
        activeCards.forEach(card => card.classList.add('off'));
        gameResult++;
-       cards = cards.forEach.filter(card => !card.classList.contains('off'));
+       cards = cards.filter(card => !card.classList.contains('off'));
        if(gameResult == gamePairs) {
        	const endTime = new Date().getTime();
        	const gameTime = (endTime - startTime)/1000;
